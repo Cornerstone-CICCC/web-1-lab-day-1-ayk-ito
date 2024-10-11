@@ -2,3 +2,53 @@ main,
 footer {
   display: flex;
 }
+
+body {
+  font-family: serif;
+}
+
+.logo {
+  background: #121853;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  text-align: center;
+}
+.content {
+  background-color: aqua;
+}
+.content img {
+  width: 100%;
+}
+.sidebar {
+  background-color: yellow;
+}
+.sidebar > h3 {
+  color: blue;
+}
+
+#about ~ p {
+  background-color: black;
+  color: white;
+}
+
+#services ~ p {
+  background-color: green;
+  color: white;
+}
+#services ~ ul li:nth-child(even) {
+  color: red;
+}
+
+#contact ~ ul li a {
+  color: red;
+}
+
+footer div:first-child {
+  background-color: pink;
+}
+footer div:nth-child(2) {
+  background-color: #b94047;
+}
+footer div:nth-child(3) {
+  background-color: grey;
+}
